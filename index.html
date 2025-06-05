@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrewBeansCo - Coffee That Connects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f5f2;
+      color: #3b2f2f;
+    }
+    header {
+      background-color: #4b2e2e;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .hero, .products, .blog {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .hero img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .hero h2, .products h2, .blog h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      background-color: #6b4c3b;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .product-grid, .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      background-color: #eee;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BrewBeansCo</h1>
+    <p>Freshly Roasted. Locally Brewed. Loved Globally.</p>
+  </header>
+
+  <section class="hero">
+    <img src="https://i.imgur.com/n4H6En4.jpg" alt="BrewBeans Coffee Cup" />
+    <h2>Celebrate Eid with Every Sip ☕🌙</h2>
+    <p>Crafted with love and roasted to perfection. Start your day the BrewBeans way.</p>
+    <a href="#" class="btn">Shop Now</a>
+  </section>
+
+  <section class="products">
+    <h2>Our Coffee Collection</h2>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://i.imgur.com/1N9ZfXl.jpg" alt="Arabica Beans">
+        <h3>Premium Arabica</h3>
+        <p>Smooth and rich with floral notes.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.imgur.com/7cEBT7v.jpg" alt="Robusta Beans">
+        <h3>Strong Robusta</h3>
+        <p>Bold flavor with a serious caffeine kick.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.imgur.com/HsZtEh2.jpg" alt="Eid Special Blend">
+        <h3>Eid Special Blend</h3>
+        <p>Limited edition roast for the festive season.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog">
+    <h2>From the Blog</h2>
+    <div class="blog-grid">
+      <div class="card">
+        <img src="https://i.imgur.com/MO2zUtb.jpg" alt="Coffee Tips">
+        <h3>5 Coffee Brewing Tips</h3>
+        <p>Take your home brewing game to the next level with these expert tricks.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.imgur.com/j3LkRHI.jpg" alt="Eid and Coffee">
+        <h3>Coffee & Eid Traditions</h3>
+        <p>How different cultures enjoy coffee during Eid ul Adha.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BrewBeansCo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
